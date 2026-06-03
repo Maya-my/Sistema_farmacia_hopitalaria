@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Sistema de Gestión de Farmacia Hospitalaria</title>
+  <link href="assets/img/logo/logo.png" rel="icon">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body class="subpage">
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo/logo.png" alt="Logo Farmacia">
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="generalidades.html" class="active">Generalidades y Marco Teórico</a></li>
+          <li class="dropdown">
+            <a href="ambiental.html">
+              <span>Paradigma Estructurado</span>
+              <i class="bi bi-chevron-down toggle-dropdown"></i>
+            </a>
+            <ul>
+              <li>
+                <a href="ambiental.html">
+                  Modelo Ambiental
+                </a>
+              </li>
+              <li>
+                <a href="comportamiento.html">
+                  Modelo de Comportamiento
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="objetos.html">Paradigma Orientado a Objetos</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a href="contactos.html">Contactos</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+<main class="main">
+  <!-- TITULO -->
+  <section class="page-title section text-dark py-5 mb-4">
+    <div class="container text-center">  
+      <h1 class="display-4 fw-bold">Analisis y diseño Estructurado</h1>
+    <h1>Modelo de Comportamiento</h1>
+    </div>
+  </section>
+  <div class="container">
+    <div class="row g-4">
+      <!-- CONTENIDO PRINCIPAL -->
+      <div class="col-lg-9">
+  <!-- 10.1 -->
+  <div id="dfd" class="card shadow mb-4 border-0">
+    <div class="card-body p-4">
+      <h2 class="card-title h3 mb-3 navy">
+        <i class="bi bi-diagram-3-fill me-2"></i>
+        10.1 DFD (Nivel 0, Nivel 1, ...)
+      </h2>
+      <img src="assets/img/estructurado/dfd0.png"
+           class="img-fluid rounded shadow-sm mb-4">
+      <img src="assets/img/estructurado/dfd1.png"
+           class="img-fluid rounded shadow-sm">
+    </div>
+  </div>
+  <!-- 10.2 -->
+  <div id="diccionario" class="card shadow mb-4 border-0 bg-light">
+    <div class="card-body p-4">
+      <h2 class="card-title h3 mb-3 navy">
+        <i class="bi bi-journal-text me-2"></i>
+        10.2 Diccionario de Datos
+      </h2>
+      <p class="text-secondary" style="text-align: justify;">
+        Aquí va el diccionario de datos.
+      </p>
+    </div>
+  </div>
+  <!-- 10.3 -->
+  <div id="procesos" class="card shadow mb-4 border-0">
+    <div class="card-body p-4">
+      <h2 class="card-title h3 mb-3 navy">
+        <i class="bi bi-gear-fill me-2"></i>
+        10.3 Especificación de Procesos
+      </h2>
+      <p class="text-secondary" style="text-align: justify;">
+        Aquí van las especificaciones de procesos.
+      </p>
+    </div>
+  </div>
+  <!-- 10.4 -->
+  <div id="der" class="card shadow mb-5 border-0 bg-light">
+    <div class="card-body p-4">
+      <h2 class="card-title h3 mb-3 navy">
+        <i class="bi bi-database-fill me-2"></i>
+        10.4 Diagrama Entidad Relación (DER)
+      </h2>
+      <img src="assets/img/estructurado/der.png"
+           class="img-fluid rounded shadow-sm">
+    </div>
+  </div>
+</div>
+  <!-- SIDEBAR -->
+  <aside class="col-lg-3">
+    <div class="sticky-top" style="top:110px; z-index: 10;">
+      <!-- CONTENIDO -->
+      <div class="card shadow mb-4 border-0">
+        <div class="card-header bg-navy text-white py-3">
+          <i class="bi bi-bookmark-star-fill me-2"></i>
+          Modelo Ambiental
+        </div>
+        <div class="list-group list-group-flush small">
+          <a href="#declaracion"
+              class="list-group-item list-group-item-action">
+            9.1 Declaración de Propósito
+          </a>
+          <a href="#contexto"
+              class="list-group-item list-group-item-action">
+            9.2 Diagrama de Contexto
+          </a>
+          <a href="#acontecimientos"
+              class="list-group-item list-group-item-action">
+            9.3 Lista de Acontecimientos
+          </a>
+        </div>
+      </div>
+      <!-- NAVEGACION -->
+      <div class="card shadow border-0">
+        <div class="card-header bg-navy text-white py-3">
+          <i class="bi bi-arrow-left-right me-2"></i>
+          Navegación
+        </div>
+        <div class="card-body text-center">
+          <a href="comportamiento.html"
+              class="btn btn-outline-primary w-100">
+            Modelo de Comportamiento
+          </a>
+        </div>
+      </div>
+    </div>
+  </aside>
+    </div>
+  </div>
+</main>  <footer id="footer" class="footer dark-background mt-auto">
+    <div class="container text-center py-4">
+      <h4 class="mb-2">Sistema de Gestión de Farmacia Hospitalaria</h4>
+      <p class="text-muted mb-1">Proyecto Académico de Análisis y Diseño de Sistemas</p>
+      <p class="small text-muted mb-0">© 2026 - Todos los derechos reservados</p>
+    </div>
+  </footer>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
