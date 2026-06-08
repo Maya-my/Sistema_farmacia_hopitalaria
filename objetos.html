@@ -171,9 +171,168 @@
               <i class="bi bi-file-earmark-text-fill me-2"></i>
               11.3 Descripción de Casos de Uso
             </h2>
-            <p class="text-secondary">
-              Aquí se detallan las descripciones de cada caso de uso del sistema.
-            </p>
+<!-- Tabla de Casos de Uso -->
+
+<div class="card shadow border-0 mb-4">
+  <div class="card-body p-4">
+
+```
+<h2 class="card-title h3 navy mb-4">
+  <i class="bi bi-diagram-2-fill me-2"></i>Catálogo de Casos de Uso
+</h2>
+
+<div class="table-responsive">
+  <table class="table table-bordered table-hover align-middle">
+
+    <thead class="table-primary">
+      <tr>
+        <th>Código</th>
+        <th>Caso de Uso</th>
+        <th>Actor Principal</th>
+        <th>Descripción Breve</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><strong>CUN1</strong></td>
+        <td>Iniciar sesión</td>
+        <td>Farmacéutico o Administrador de Farmacia</td>
+        <td>Permite a los usuarios autenticarse de forma segura en el sistema mediante sus credenciales para acceder a las funciones de la aplicación.</td>
+      </tr>
+
+      <tr>
+        <td><strong>CUN2</strong></td>
+        <td>Gestionar usuarios y roles</td>
+        <td>Administrador de Farmacia</td>
+        <td>Permite registrar, modificar y asignar roles o permisos al personal autorizado de la farmacia.</td>
+      </tr>
+
+      <tr>
+        <td><strong>CUN3</strong></td>
+        <td>Gestionar catálogo de medicamentos</td>
+        <td>Farmacéutico</td>
+        <td>Permite realizar la administración centralizada del catálogo, incluyendo las acciones de registrar, modificar y eliminar medicamentos.</td>
+      </tr>
+
+      <tr>
+        <td><strong>CUN4</strong></td>
+        <td>Consultar medicamentos</td>
+        <td>Farmacéutico</td>
+        <td>Permite buscar, filtrar y visualizar los detalles técnicos y generales de un medicamento específico para la atención diaria.</td>
+      </tr>
+
+      <tr>
+        <td><strong>CUN5</strong></td>
+        <td>Proporcionar información de medicamentos</td>
+        <td>Proveedor</td>
+        <td>Módulo externo donde el proveedor facilita los datos y especificaciones de los medicamentos que suministra.</td>
+      </tr>
+
+      <tr>
+        <td><strong>CUN6</strong></td>
+        <td>Gestionar lotes de medicamentos</td>
+        <td>Farmacéutico</td>
+        <td>Permite llevar el control del almacén mediante el registro inicial de nuevos lotes y la actualización de su información.</td>
+      </tr>
+
+      <tr>
+        <td><strong>CUN7</strong></td>
+        <td>Suministrar información de vencimientos</td>
+        <td>Proveedor</td>
+        <td>Caso externo donde el proveedor informa formalmente las fechas de caducidad correspondientes a los lotes enviados.</td>
+      </tr>
+
+      <tr>
+        <td><strong>CUN8</strong></td>
+        <td>Entregar lotes de medicamentos</td>
+        <td>Proveedor</td>
+        <td>Registra la acción física, logística y de entrega de los lotes de medicamentos en el establecimiento hospitalario.</td>
+      </tr>
+
+      <tr>
+        <td><strong>CUN9</strong></td>
+        <td>Consultar inventario general</td>
+        <td>Farmacéutico</td>
+        <td>Despliega la pantalla principal de control que muestra el estado global actual de las existencias disponibles.</td>
+      </tr>
+
+      <tr>
+        <td><strong>CUN10</strong></td>
+        <td>Registrar ingreso de medicamentos</td>
+        <td>Farmacéutico</td>
+        <td>Registra la entrada de nuevas unidades de medicamentos al stock tras la validación de una entrega.</td>
+      </tr>
+
+      <tr>
+        <td><strong>CUN11</strong></td>
+        <td>Registrar salida de medicamentos</td>
+        <td>Farmacéutico</td>
+        <td>Registra la disminución de existencias por conceptos de mermas, vencimientos o ventas operativas.</td>
+      </tr>
+
+      <tr>
+        <td><strong>CUN12</strong></td>
+        <td>Solicitar pedidos de medicamentos</td>
+        <td>Farmacéutico</td>
+        <td>Genera una solicitud de abastecimiento dirigida a los proveedores al detectar desabastecimiento o stock crítico.</td>
+      </tr>
+
+      <tr>
+        <td><strong>CUN13</strong></td>
+        <td>Recibir medicamentos dispensados</td>
+        <td>Personal Médico</td>
+        <td>Registra la entrega y confirmación de los medicamentos que el personal de salud solicitó para el cuidado de pacientes.</td>
+      </tr>
+
+      <tr>
+        <td><strong>CUN14</strong></td>
+        <td>Consultar alertas de stock bajo</td>
+        <td>Administrador de Farmacia</td>
+        <td>Despliega un panel con los productos que han alcanzado su límite mínimo, orientado a planificar compras a gran escala.</td>
+      </tr>
+
+      <tr>
+        <td><strong>CUN15</strong></td>
+        <td>Consultar alertas de vencimiento</td>
+        <td>Administrador de Farmacia</td>
+        <td>Muestra de forma detallada los lotes próximos a caducar para gestionar devoluciones o planes de salida con proveedores.</td>
+      </tr>
+
+      <tr>
+        <td><strong>CUN16</strong></td>
+        <td>Atender alerta de stock inmediato</td>
+        <td>Farmacéutico</td>
+        <td>Notificación operativa en tiempo real que avisa al farmacéutico en mostrador sobre la escasez inmediata de un insumo.</td>
+      </tr>
+
+      <tr>
+        <td><strong>CUN17</strong></td>
+        <td>Consultar reportes del sistema</td>
+        <td>Administrador de Farmacia</td>
+        <td>Permite el acceso al menú administrativo y analítico para revisar las estadísticas generales del software.</td>
+      </tr>
+
+      <tr>
+        <td><strong>CUN18</strong></td>
+        <td>Generar reporte de inventario y auditoría</td>
+        <td>Administrador de Farmacia</td>
+        <td>Procesa y exporta documentos detallados sobre los movimientos físicos y lógicos de las existencias para la toma de decisiones.</td>
+      </tr>
+
+    </tbody>
+
+  </table>
+</div>
+```
+
+  </div>
+</div>
+<!-- FIN Tabla de Casos de Uso -->
+
+
+            
           </div>
         </div>
         <!-- 11.4 -->
