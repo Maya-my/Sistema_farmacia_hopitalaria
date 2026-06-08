@@ -59,9 +59,9 @@
         <div class="row g-4">
         <div class="col-lg-9">
           <div id="intro" class="card shadow mb-4 border-0">
-            <div class="card-body style="padding: 5rem;">
+            <div class="card-body p-5">
               <h2 class="card-title h3 mb-3 navy"><i class="bi bi-info-circle-fill me-2"></i>1. Introducción</h2>
-              <p class="text-secondary" style="text-align: justify;">
+              <p class="text-dark" style="text-align: justify;">
                 En la actualidad, las instituciones de salud requieren sistemas informáticos eficientes que optimicen la gestión de suministros para garantizar una atención de calidad. La Farmacia Hospitalaria cumple un rol fundamental, siendo responsable del control, almacenamiento y dispensación de medicamentos e insumos médicos esenciales para los tratamientos clínicos.
 A pesar de su importancia, en muchos centros hospitalarios la administración logística aún presenta procesos manuales o depende de sistemas con capacidades limitadas. Esta situación suele derivar en deficiencias en el seguimiento de lotes y el control de fechas de vencimiento, lo que incrementa el riesgo de errores administrativos, pérdidas económicas por fármacos caducados y posibles retrasos en la atención al paciente.
 Tras un diagnóstico realizado en la farmacia del Hospital Los Pinos, se identificó que, si bien se utiliza el sistema SIAC para funciones operativas básicas, persisten tareas manuales para la supervisión de niveles de stock y alertas preventivas. Existe una carencia de herramientas automatizadas que notifique la proximidad de vencimientos o el desabastecimiento de insumos clave.
@@ -70,7 +70,7 @@ El presente proyecto propone el análisis y diseño de un “Sistema de Control 
             </div>
           </div>
           <div id="antecedentes" class="card shadow mb-4 border-0 bg-light">
-            <div class="card-body p-7">
+            <div class="card-body p-5">
               <h2 class="card-title h3 mb-3 navy"><i class="bi bi-clock-history me-2"></i>2. Antecedentes</h2>
               <p class="text-dark" style="text-align: justify;">
                 El Hospital Municipal Los Pinos es una institución pública de salud de segundo nivel perteneciente al Gobierno Autónomo Municipal de La Paz, ubicada en la zona Los Pinos de la ciudad de La Paz. Inició sus actividades en el año 2010 y cuenta con un equipo multidisciplinario orientado a brindar atención médica a la población en general. El hospital ofrece diferentes servicios como consulta externa, emergencia las 24 horas, laboratorio, internación y farmacia hospitalaria, además de especialidades médicas en áreas como medicina interna, cirugía general, ginecología, pediatría, traumatología y terapia intensiva. Asimismo, atiende a pacientes beneficiarios de programas de salud pública y servicios gratuitos, contribuyendo al cuidado y mejoramiento de la calidad de vida de la población paceña. 
@@ -79,9 +79,9 @@ Según la investigación y la entrevista realizada al personal de farmacia, actu
             </div>
           </div>
           <div id="problema" class="card shadow mb-4 border-0">
-            <div class="card-body p-7">
+            <div class="card-body p-5">
               <h2 class="card-title h3 mb-3 navy"><i class="bi bi-exclamation-triangle-fill me-2"></i>3. Planteamiento del Problema</h2>
-              <p class="text-secondary" style="text-align: justify;">
+              <p class="text-dark" style="text-align: justify;">
                 Actualmente la farmacia hospitalaria del Hospital Los Pinos utiliza el sistema SIAC para el registro de recetas médicas y el control básico de medicamentos. Sin embargo, durante la investigación realizada se identificó que varios procesos continúan efectuándose de forma manual, especialmente el control de inventario, lotes y fechas de vencimiento de medicamentos.
 Asimismo, se evidenció la ausencia de alertas automáticas para medicamentos próximos a vencer y para niveles bajos de stock, lo que dificulta una adecuada supervisión del inventario. Además, cuando existen errores en los registros de descarga de medicamentos, el sistema actual no permite realizar correcciones directas de manera sencilla.
 Estas limitaciones en consecuencia pueden generar pérdidas de medicamentos, retrasos en los procesos administrativos y dificultades en el control eficiente de inventarios dentro de la farmacia hospitalaria. Por ello, surge la necesidad de diseñar un sistema que permita mejorar el control y gestión de medicamentos mediante herramientas automatizadas y un mejor seguimiento de la información.
@@ -89,9 +89,9 @@ Estas limitaciones en consecuencia pueden generar pérdidas de medicamentos, ret
             </div>
           </div>
           <div id="objetivo-general" class="card shadow mb-4 border-0 bg-light">
-            <div class="card-body p-4">
+            <div class="card-body p-5">
               <h2 class="card-title h3 mb-3 navy"><i class="bi bi-shield-check me-2"></i>4. Objetivo General</h2>
-              <p class="lead text-dark fs-5">
+              <p class="lead text-dark fs-5" style="text-align: justify;">
                 Diseñar un sistema de control de medicamentos para la farmacia hospitalaria del Hospital Los Pinos, que permita mejorar la gestión de inventario, el control de vencimientos y la supervisión de stock mediante procesos automatizados. 
               </p>
             </div>
@@ -100,10 +100,12 @@ Estas limitaciones en consecuencia pueden generar pérdidas de medicamentos, ret
             <div class="card-body p-4">
               <h2 class="card-title h3 mb-3 navy"><i class="bi bi-list-task me-2"></i>5. Objetivos Específicos</h2>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item border-0 ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Analizar los procesos actuales.</li>
-                <li class="list-group-item border-0 ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Identificar actores y requerimientos.</li>
-                <li class="list-group-item border-0 ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Diseñar los modelos estructurados.</li>
-                <li class="list-group-item border-0 ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Diseñar los modelos orientados a objetos.</li>
+                <li class="list-group-item border-0 ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Analizar el funcionamiento actual de la farmacia hospitalaria del Hospital Los Pinos.</li>
+                <li class="list-group-item border-0 ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Identificar los problemas relacionados con el control de medicamentos y gestión de inventario.</li>
+                <li class="list-group-item border-0 ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Diseñar un sistema que permita automatizar el control de lotes y fechas de vencimiento.</li>
+                <li class="list-group-item border-0 ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Diseñar funciones de alertas automáticas para medicamentos próximos a vencer y niveles bajos de stock.</li>
+                <li class="list-group-item border-0 ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Modelar el sistema utilizando análisis estructurado y diagramas orientados a objetos.</li>
+                <li class="list-group-item border-0 ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Proponer una solución que contribuya a mejorar la eficiencia en los procesos de farmacia hospitalaria.</li>
               </ul>
             </div>
           </div>
