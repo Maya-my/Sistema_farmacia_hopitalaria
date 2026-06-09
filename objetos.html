@@ -5,9 +5,9 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Sistema de Gestión de Farmacia Hospitalaria</title>
   <link href="assets/img/logo/logo.png" rel="icon">
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="[https://fonts.googleapis.com](https://fonts.googleapis.com)" rel="preconnect">
+  <link href="[https://fonts.gstatic.com](https://fonts.gstatic.com)" rel="preconnect" crossorigin>
+  <link href="[https://fonts.googleapis.com/css2?family=Roboto:wght=300;400;500;700&display=swap](https://fonts.googleapis.com/css2?family=Roboto:wght=300;400;500;700&display=swap)" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -29,16 +29,8 @@
               <i class="bi bi-chevron-down toggle-dropdown"></i>
             </a>
             <ul>
-              <li>
-                <a href="ambiental.html">
-                  Modelo Ambiental
-                </a>
-              </li>
-              <li>
-                <a href="comportamiento.html">
-                  Modelo de Comportamiento
-                </a>
-              </li>
+              <li><a href="ambiental.html">Modelo Ambiental</a></li>
+              <li><a href="comportamiento.html">Modelo de Comportamiento</a></li>
             </ul>
           </li>
           <li><a href="objetos.html">Paradigma Orientado a Objetos</a></li>
@@ -49,366 +41,282 @@
       </nav>
     </div>
   </header>
+
   <main class="main"> 
     <section class="page-title section text-dark py-5 mb-4">
       <div class="container text-center">
-        <h1 class="display-4 fw-bold">Analisis y Diseño Orientado a Objetos</h1>
+        <h1 class="display-4 fw-bold">Análisis y Diseño Orientado a Objetos</h1>
       </div>
     </section>
-    <div class="container">
-        <div class="row g-4">
+
+    <div class="container-fluid px-4"> <div class="row g-4">
+        
         <div class="col-lg-9">
-          <div class="col-lg-9">
-        <div id="actores" class="card shadow mb-4 border-0">
-          <div class="card-body p-4">
-            <h2 class="card-title h3 mb-3 navy">
-              <i class="bi bi-people-fill me-2"></i>
-              11.1 Identificación de Actores
-            </h2>
-            <p class="text-secondary" style="text-align: justify;">
-              <div class="card shadow border-0 mb-4">
-  <div class="card-body p-4">
-
-    <h2 class="card-title h3 navy mb-4">
-      <i class="bi bi-people-fill me-2"></i>Actores del Sistema
-    </h2>
-
-    <div class="table-responsive">
-      <table class="table table-bordered table-hover align-middle">
-
-        <thead class="table-primary">
-          <tr>
-            <th width="15%">Actor</th>
-            <th width="35%">Descripción</th>
-            <th width="50%">Responsabilidades</th>
-          </tr>
-        </thead>
-
-        <tbody>
-
-          <tr>
-            <td><strong>Farmacéutico</strong></td>
-            <td>
-              Actor operativo principal del sistema encargado de la gestión
-              del catálogo, inventario y control de medicamentos.
-            </td>
-            <td>
-              • Gestionar catálogo de medicamentos.<br>
-              • Gestionar lotes de medicamentos.<br>
-              • Consultar inventario.<br>
-              • Registrar ingresos y salidas.<br>
-              • Solicitar pedidos.<br>
-              • Atender alertas.
-            </td>
-          </tr>
-
-          <tr>
-            <td><strong>Administrador de Farmacia</strong></td>
-            <td>
-              Responsable de la seguridad, auditoría y supervisión global
-              del sistema.
-            </td>
-            <td>
-              • Gestionar usuarios y permisos.<br>
-              • Monitorear alertas.<br>
-              • Consultar reportes.<br>
-              • Generar reportes de inventario.
-            </td>
-          </tr>
-
-          <tr>
-            <td><strong>Personal Médico</strong></td>
-            <td>
-              Personal de salud que solicita medicamentos para la atención
-              de pacientes.
-            </td>
-            <td>
-              • Solicitar medicamentos.<br>
-              • Consultar disponibilidad.<br>
-              • Confirmar recepción.
-            </td>
-          </tr>
-
-          <tr>
-            <td><strong>Proveedor</strong></td>
-            <td>
-              Actor externo encargado del abastecimiento de medicamentos
-              e insumos médicos.
-            </td>
-            <td>
-              • Entregar medicamentos.<br>
-              • Proporcionar información de trazabilidad.<br>
-              • Informar fechas de vencimiento.<br>
-              • Procesar órdenes de compra.
-            </td>
-          </tr>
-
-        </tbody>
-
-      </table>
-    </div>
-
-  </div>
-</div>
-            </p>
+          
+          <div id="actores" class="card shadow mb-4 border-0">
+            <div class="card-body p-4">
+              <h2 class="card-title h3 mb-4 navy">
+                <i class="bi bi-people-fill me-2"></i>
+                11.1 Identificación de Actores
+              </h2>
+              
+              <div class="table-responsive">
+                <table class="table table-bordered table-hover align-middle w-100">
+                  <thead class="table-primary">
+                    <tr>
+                      <th style="width: 20%;">Actor</th>
+                      <th style="width: 40%;">Descripción</th>
+                      <th style="width: 40%;">Responsabilidades</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>Farmacéutico</strong></td>
+                      <td>Actor operativo principal del sistema encargado de la gestión del catálogo, inventario y control de medicamentos.</td>
+                      <td>
+                        • Gestionar catálogo de medicamentos.<br>
+                        • Gestionar lotes de medicamentos.<br>
+                        • Consultar inventario.<br>
+                        • Registrar ingresos y salidas.<br>
+                        • Solicitar pedidos.<br>
+                        • Atender alertas.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><strong>Administrador de Farmacia</strong></td>
+                      <td>Responsable de la seguridad, auditoría y supervisión global del sistema.</td>
+                      <td>
+                        • Gestionar usuarios y permisos.<br>
+                        • Monitorear alertas.<br>
+                        • Consultar reportes.<br>
+                        • Generar reportes de inventario.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><strong>Personal Médico</strong></td>
+                      <td>Personal de salud que solicita medicamentos para la atención de pacientes.</td>
+                      <td>
+                        • Solicitar medicamentos.<br>
+                        • Consultar disponibilidad.<br>
+                        • Confirmar recepción.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><strong>Proveedor</strong></td>
+                      <td>Actor externo encargado del abastecimiento de medicamentos e insumos médicos.</td>
+                      <td>
+                        • Entregar medicamentos.<br>
+                        • Proporcionar información de trazabilidad.<br>
+                        • Informar fechas de vencimiento.<br>
+                        • Procesar órdenes de compra.
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
-        </div>
-        <!-- 11.2 -->
-        <div id="casos-uso" class="card shadow mb-4 border-0 bg-light">
-          <div class="card-body p-4">
-            <h2 class="card-title h3 mb-3 navy">
-              <i class="bi bi-diagram-3-fill me-2"></i>
-              11.2 Diagrama de Casos de Uso
-            </h2>
-            <img src="assets/img/hospital/CasoUso.jpg"
-                class="img-fluid rounded shadow-sm">
+
+          <div id="casos-uso" class="card shadow mb-4 border-0 bg-light">
+            <div class="card-body p-4">
+              <h2 class="card-title h3 mb-3 navy">
+                <i class="bi bi-diagram-3-fill me-2"></i>
+                11.2 Diagrama de Casos de Uso
+              </h2>
+              <div class="text-center">
+                <img src="assets/img/hospital/CasoUso.jpg" class="img-fluid rounded shadow-sm" alt="Diagrama de Casos de Uso">
+              </div>
+            </div>
           </div>
-        </div>
-        <!-- 11.3 -->
-        <div id="descripcion-casos" class="card shadow mb-4 border-0">
-          <div class="card-body p-4">
-            <h2 class="card-title h3 mb-3 navy">
-              <i class="bi bi-file-earmark-text-fill me-2"></i>
-              11.3 Descripción de Casos de Uso
-            </h2>
-<!-- Tabla de Casos de Uso -->
 
-<div class="card shadow border-0 mb-4">
-  <div class="card-body p-4">
+          <div id="descripcion-casos" class="card shadow mb-4 border-0">
+            <div class="card-body p-4">
+              <h2 class="card-title h3 navy mb-4">
+                <i class="bi bi-diagram-2-fill me-2"></i>
+                11.3 Catálogo y Descripción de Casos de Uso
+              </h2>
 
-```
-<h2 class="card-title h3 navy mb-4">
-  <i class="bi bi-diagram-2-fill me-2"></i>Catálogo de Casos de Uso
-</h2>
-
-<div class="table-responsive">
-  <table class="table table-bordered table-hover align-middle">
-
-    <thead class="table-primary">
-      <tr>
-        <th>Código</th>
-        <th>Caso de Uso</th>
-        <th>Actor Principal</th>
-        <th>Descripción Breve</th>
-      </tr>
-    </thead>
-
-    <tbody>
-
-      <tr>
-        <td><strong>CUN1</strong></td>
-        <td>Iniciar sesión</td>
-        <td>Farmacéutico o Administrador de Farmacia</td>
-        <td>Permite a los usuarios autenticarse de forma segura en el sistema mediante sus credenciales para acceder a las funciones de la aplicación.</td>
-      </tr>
-
-      <tr>
-        <td><strong>CUN2</strong></td>
-        <td>Gestionar usuarios y roles</td>
-        <td>Administrador de Farmacia</td>
-        <td>Permite registrar, modificar y asignar roles o permisos al personal autorizado de la farmacia.</td>
-      </tr>
-
-      <tr>
-        <td><strong>CUN3</strong></td>
-        <td>Gestionar catálogo de medicamentos</td>
-        <td>Farmacéutico</td>
-        <td>Permite realizar la administración centralizada del catálogo, incluyendo las acciones de registrar, modificar y eliminar medicamentos.</td>
-      </tr>
-
-      <tr>
-        <td><strong>CUN4</strong></td>
-        <td>Consultar medicamentos</td>
-        <td>Farmacéutico</td>
-        <td>Permite buscar, filtrar y visualizar los detalles técnicos y generales de un medicamento específico para la atención diaria.</td>
-      </tr>
-
-      <tr>
-        <td><strong>CUN5</strong></td>
-        <td>Proporcionar información de medicamentos</td>
-        <td>Proveedor</td>
-        <td>Módulo externo donde el proveedor facilita los datos y especificaciones de los medicamentos que suministra.</td>
-      </tr>
-
-      <tr>
-        <td><strong>CUN6</strong></td>
-        <td>Gestionar lotes de medicamentos</td>
-        <td>Farmacéutico</td>
-        <td>Permite llevar el control del almacén mediante el registro inicial de nuevos lotes y la actualización de su información.</td>
-      </tr>
-
-      <tr>
-        <td><strong>CUN7</strong></td>
-        <td>Suministrar información de vencimientos</td>
-        <td>Proveedor</td>
-        <td>Caso externo donde el proveedor informa formalmente las fechas de caducidad correspondientes a los lotes enviados.</td>
-      </tr>
-
-      <tr>
-        <td><strong>CUN8</strong></td>
-        <td>Entregar lotes de medicamentos</td>
-        <td>Proveedor</td>
-        <td>Registra la acción física, logística y de entrega de los lotes de medicamentos en el establecimiento hospitalario.</td>
-      </tr>
-
-      <tr>
-        <td><strong>CUN9</strong></td>
-        <td>Consultar inventario general</td>
-        <td>Farmacéutico</td>
-        <td>Despliega la pantalla principal de control que muestra el estado global actual de las existencias disponibles.</td>
-      </tr>
-
-      <tr>
-        <td><strong>CUN10</strong></td>
-        <td>Registrar ingreso de medicamentos</td>
-        <td>Farmacéutico</td>
-        <td>Registra la entrada de nuevas unidades de medicamentos al stock tras la validación de una entrega.</td>
-      </tr>
-
-      <tr>
-        <td><strong>CUN11</strong></td>
-        <td>Registrar salida de medicamentos</td>
-        <td>Farmacéutico</td>
-        <td>Registra la disminución de existencias por conceptos de mermas, vencimientos o ventas operativas.</td>
-      </tr>
-
-      <tr>
-        <td><strong>CUN12</strong></td>
-        <td>Solicitar pedidos de medicamentos</td>
-        <td>Farmacéutico</td>
-        <td>Genera una solicitud de abastecimiento dirigida a los proveedores al detectar desabastecimiento o stock crítico.</td>
-      </tr>
-
-      <tr>
-        <td><strong>CUN13</strong></td>
-        <td>Recibir medicamentos dispensados</td>
-        <td>Personal Médico</td>
-        <td>Registra la entrega y confirmación de los medicamentos que el personal de salud solicitó para el cuidado de pacientes.</td>
-      </tr>
-
-      <tr>
-        <td><strong>CUN14</strong></td>
-        <td>Consultar alertas de stock bajo</td>
-        <td>Administrador de Farmacia</td>
-        <td>Despliega un panel con los productos que han alcanzado su límite mínimo, orientado a planificar compras a gran escala.</td>
-      </tr>
-
-      <tr>
-        <td><strong>CUN15</strong></td>
-        <td>Consultar alertas de vencimiento</td>
-        <td>Administrador de Farmacia</td>
-        <td>Muestra de forma detallada los lotes próximos a caducar para gestionar devoluciones o planes de salida con proveedores.</td>
-      </tr>
-
-      <tr>
-        <td><strong>CUN16</strong></td>
-        <td>Atender alerta de stock inmediato</td>
-        <td>Farmacéutico</td>
-        <td>Notificación operativa en tiempo real que avisa al farmacéutico en mostrador sobre la escasez inmediata de un insumo.</td>
-      </tr>
-
-      <tr>
-        <td><strong>CUN17</strong></td>
-        <td>Consultar reportes del sistema</td>
-        <td>Administrador de Farmacia</td>
-        <td>Permite el acceso al menú administrativo y analítico para revisar las estadísticas generales del software.</td>
-      </tr>
-
-      <tr>
-        <td><strong>CUN18</strong></td>
-        <td>Generar reporte de inventario y auditoría</td>
-        <td>Administrador de Farmacia</td>
-        <td>Procesa y exporta documentos detallados sobre los movimientos físicos y lógicos de las existencias para la toma de decisiones.</td>
-      </tr>
-
-    </tbody>
-
-  </table>
-</div>
-```
-
-  </div>
-</div>
-<!-- FIN Tabla de Casos de Uso -->
-
-
-            
+              <div class="table-responsive">
+                <table class="table table-bordered table-hover align-middle w-100">
+                  <thead class="table-primary">
+                    <tr>
+                      <th style="width: 10%;">Código</th>
+                      <th style="width: 25%;">Caso de Uso</th>
+                      <th style="width: 25%;">Actor Principal</th>
+                      <th style="width: 40%;">Descripción Breve</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>CUN1</strong></td>
+                      <td>Iniciar sesión</td>
+                      <td>Farmacéutico o Administrador de Farmacia</td>
+                      <td>Permite a los usuarios autenticarse de forma segura en el sistema mediante sus credenciales para acceder a las funciones de la aplicación.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>CUN2</strong></td>
+                      <td>Gestionar usuarios y roles</td>
+                      <td>Administrador de Farmacia</td>
+                      <td>Permite registrar, modificar y asignar roles o permisos al personal autorizado de la farmacia.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>CUN3</strong></td>
+                      <td>Gestionar catálogo de medicamentos</td>
+                      <td>Farmacéutico</td>
+                      <td>Permite realizar la administración centralizada del catálogo, incluyendo las acciones de registrar, modificar y eliminar medicamentos.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>CUN4</strong></td>
+                      <td>Consultar medicamentos</td>
+                      <td>Farmacéutico</td>
+                      <td>Permite buscar, filtrar y visualizar los detalles técnicos y generales de un medicamento específico para la atención diaria.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>CUN5</strong></td>
+                      <td>Proporcionar información de medicamentos</td>
+                      <td>Proveedor</td>
+                      <td>Módulo externo donde el proveedor facilita los datos y especificaciones de los medicamentos que suministra.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>CUN6</strong></td>
+                      <td>Gestionar lotes de medicamentos</td>
+                      <td>Farmacéutico</td>
+                      <td>Permite llevar el control del almacén mediante el registro inicial de nuevos lotes y la actualización de su información.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>CUN7</strong></td>
+                      <td>Suministrar información de vencimientos</td>
+                      <td>Proveedor</td>
+                      <td>Caso externo donde el proveedor informa formalmente las fechas de caducidad correspondientes a los lotes enviados.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>CUN8</strong></td>
+                      <td>Entregar lotes de medicamentos</td>
+                      <td>Proveedor</td>
+                      <td>Registra la acción física, logística y de entrega de los lotes de medicamentos en el establecimiento hospitalario.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>CUN9</strong></td>
+                      <td>Consultar inventario general</td>
+                      <td>Farmacéutico</td>
+                      <td>Despliega la pantalla principal de control que muestra el estado global actual de las existencias disponibles.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>CUN10</strong></td>
+                      <td>Registrar ingreso de medicamentos</td>
+                      <td>Farmacéutico</td>
+                      <td>Registra la entrada de nuevas unidades de medicamentos al stock tras la validación de una entrega.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>CUN11</strong></td>
+                      <td>Registrar salida de medicamentos</td>
+                      <td>Farmacéutico</td>
+                      <td>Registra la disminución de existencias por conceptos de mermas, vencimientos o ventas operativas.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>CUN12</strong></td>
+                      <td>Solicitar pedidos de medicamentos</td>
+                      <td>Farmacéutico</td>
+                      <td>Genera una solicitud de abastecimiento dirigida a los proveedores al detectar desabastecimiento o stock crítico.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>CUN13</strong></td>
+                      <td>Recibir medicamentos dispensados</td>
+                      <td>Personal Médico</td>
+                      <td>Registra la entrega y confirmación de los medicamentos que el personal de salud solicitó para el cuidado de pacientes.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>CUN14</strong></td>
+                      <td>Consultar alertas de stock bajo</td>
+                      <td>Administrador de Farmacia</td>
+                      <td>Despliega un panel con los productos que han alcanzado su límite mínimo, orientado a planificar compras a gran escala.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>CUN15</strong></td>
+                      <td>Consultar alertas de vencimiento</td>
+                      <td>Administrador de Farmacia</td>
+                      <td>Muestra de forma detallada los lotes próximos a caducar para gestionar devoluciones o planes de salida con proveedores.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>CUN16</strong></td>
+                      <td>Atender alerta de stock inmediato</td>
+                      <td>Farmacéutico</td>
+                      <td>Notificación operativa en tiempo real que avisa al farmacéutico en mostrador sobre la escasez inmediata de un insumo.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>CUN17</strong></td>
+                      <td>Consultar reportes del sistema</td>
+                      <td>Administrador de Farmacia</td>
+                      <td>Permite el acceso al menú administrativo y analítico para revisar las estadísticas generales del software.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>CUN18</strong></td>
+                      <td>Generar reporte de inventario y auditoría</td>
+                      <td>Administrador de Farmacia</td>
+                      <td>Procesa y exporta documentos detallados sobre los movimientos físicos y lógicos de las existencias para la toma de decisiones.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
-        </div>
-        <!-- 11.4 -->
-        <div id="clases" class="card shadow mb-4 border-0 bg-light">
-          <div class="card-body p-4">
-            <h2 class="card-title h3 mb-3 navy">
-              <i class="bi bi-boxes me-2"></i>
-              11.4 Diagrama de Clases
-            </h2>
-            <img src="assets/img/hospital/diClase.jpg"
-                class="img-fluid rounded shadow-sm">
+
+          <div id="clases" class="card shadow mb-4 border-0 bg-light">
+            <div class="card-body p-4">
+              <h2 class="card-title h3 mb-3 navy">
+                <i class="bi bi-boxes me-2"></i>
+                11.4 Diagrama de Clases
+              </h2>
+              <div class="text-center">
+                <img src="assets/img/hospital/diClase.jpg" class="img-fluid rounded shadow-sm" alt="Diagrama de Clases">
+              </div>
+            </div>
           </div>
-        </div>
-        <!-- 11.5 -->
-        <div id="secuencia" class="card shadow mb-4 border-0">
-          <div class="card-body p-4">
-            <h2 class="card-title h3 mb-3 navy">
-              <i class="bi bi-arrow-left-right me-2"></i>
-              11.5 Diagrama de Secuencia
-            </h2>
-            <img src="assets/img/hospital/diSec.jpg"
-                class="img-fluid rounded shadow-sm">
+
+          <div id="secuencia" class="card shadow mb-4 border-0">
+            <div class="card-body p-4">
+              <h2 class="card-title h3 mb-3 navy">
+                <i class="bi bi-arrow-left-right me-2"></i>
+                11.5 Diagrama de Secuencia
+              </h2>
+              <div class="text-center">
+                <img src="assets/img/hospital/diSec.jpg" class="img-fluid rounded shadow-sm" alt="Diagrama de Secuencia">
+              </div>
+            </div>
           </div>
-        </div>
-        <!-- 11.6 -->
-        <div id="actividades" class="card shadow mb-5 border-0 bg-light">
-          <div class="card-body p-4">
-            <h2 class="card-title h3 mb-3 navy">
-              <i class="bi bi-flow-chart me-2"></i>
-              11.6 Diagrama de Actividades
-            </h2>
-            <img src="assets/img/hospital/diAct.jpg"
-                class="img-fluid rounded shadow-sm">
+
+          <div id="actividades" class="card shadow mb-5 border-0 bg-light">
+            <div class="card-body p-4">
+              <h2 class="card-title h3 mb-3 navy">
+                <i class="bi bi-flow-chart me-2"></i>
+                11.6 Diagrama de Actividades
+              </h2>
+              <div class="text-center">
+                <img src="assets/img/hospital/diAct.jpg" class="img-fluid rounded shadow-sm" alt="Diagrama de Actividades">
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-        </div> 
-  <aside class="col-lg-3">
-  <div class="sticky-top" style="top:110px; z-index:10;">
-    <div class="card shadow mb-4 border-0">
-      <div class="card-header bg-navy text-white py-3">
-        <i class="bi bi-bookmark-star-fill me-2"></i>
-        Contenido
-      </div>
-      <div class="list-group list-group-flush small">
-        <a href="#actores"
-          class="list-group-item list-group-item-action">
-          11.1 Identificación de Actores
-        </a>
-        <a href="#casos-uso"
-          class="list-group-item list-group-item-action">
-          11.2 Casos de Uso
-        </a>
-        <a href="#descripcion-casos"
-          class="list-group-item list-group-item-action">
-          11.3 Descripción Casos de Uso
-        </a>
-        <a href="#clases"
-          class="list-group-item list-group-item-action">
-          11.4 Diagrama de Clases
-        </a>
-        <a href="#secuencia"
-          class="list-group-item list-group-item-action">
-          11.5 Diagrama de Secuencia
-        </a>
-        <a href="#actividades"
-          class="list-group-item list-group-item-action">
-          11.6 Diagrama de Actividades
-        </a>
-      </div>
-    </div>
-  </div>
-</aside> 
-      </div>
-    </div>
-  </main>
+          
+        </div> <aside class="col-lg-3">
+          <div class="sticky-top" style="top:110px; z-index:10;">
+            <div class="card shadow mb-4 border-0">
+              <div class="card-header bg-navy text-white py-3" style="background-color: #001f3f;"> <i class="bi bi-bookmark-star-fill me-2"></i>
+                Contenido
+              </div>
+              <div class="list-group list-group-flush small">
+                <a href="#actores" class="list-group-item list-group-item-action">11.1 Identificación de Actores</a>
+                <a href="#casos-uso" class="list-group-item list-group-item-action">11.2 Casos de Uso</a>
+                <a href="#descripcion-casos" class="list-group-item list-group-item-action">11.3 Descripción Casos de Uso</a>
+                <a href="#clases" class="list-group-item list-group-item-action">11.4 Diagrama de Clases</a>
+                <a href="#secuencia" class="list-group-item list-group-item-action">11.5 Diagrama de Secuencia</a>
+                <a href="#actividades" class="list-group-item list-group-item-action">11.6 Diagrama de Actividades</a>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+      </div> </div> </main>
+
   <footer id="footer" class="footer dark-background mt-auto">
     <div class="container text-center py-4">
       <h4 class="mb-2">Sistema de Gestión de Farmacia Hospitalaria</h4>
@@ -416,9 +324,11 @@
       <p class="small text-muted mb-0">© 2026 - Todos los derechos reservados</p>
     </div>
   </footer>
+
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
     <i class="bi bi-arrow-up-short"></i>
   </a>
+
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/js/main.js"></script>
