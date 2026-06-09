@@ -22,9 +22,9 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Inicio</a></li>
-          <li><a href="generalidades.html" class="active">Generalidades y Marco Teórico</a></li>
+          <li><a href="generalidades.html">Generalidades y Marco Teórico</a></li>
           <li class="dropdown">
-            <a href="ambiental.html">
+            <a href="ambiental.html" class="active">
               <span>Paradigma Estructurado</span>
               <i class="bi bi-chevron-down toggle-dropdown"></i>
             </a>
@@ -35,7 +35,7 @@
                 </a>
               </li>
               <li>
-                <a href="comportamiento.html">
+                <a href="comportamiento.html" class="active">
                   Modelo de Comportamiento
                 </a>
               </li>
@@ -49,53 +49,52 @@
       </nav>
     </div>
   </header>
+
 <main class="main">
-  <!-- TITULO -->
   <section class="page-title section text-dark py-5 mb-4">
     <div class="container text-center">  
-      <h1 class="display-4 fw-bold">Analisis y diseño Estructurado</h1>
-    <h1>Modelo de Comportamiento</h1>
+      <h1 class="display-4 fw-bold mb-2">Análisis y Diseño Estructurado</h1>
+      <h2 class="h3 text-muted">Modelo de Comportamiento</h2>
     </div>
   </section>
+
   <div class="container">
     <div class="row g-4">
-      <!-- CONTENIDO PRINCIPAL -->
+      
       <div class="col-lg-9">
-  <!-- 10.1 -->
-  <div id="dfd" class="card shadow mb-4 border-0">
-    <div class="card-body p-4">
-      <h2 class="card-title h3 mb-3 navy">
-        <i class="bi bi-diagram-3-fill me-2"></i>
-        10.1 DFD (Nivel 0, Nivel 1, ...)
-      </h2>
-      <h2 class="card-title h3 mb-3 navy">
-        10.1.1. Nivel 0
-      </h2>
-      <img src="assets/img/nivel0.jpg"
-           class="img-fluid rounded shadow-sm mb-4">
-      <h2 class="card-title h3 mb-3 navy">
-        10.1.1. Nivel 1
-      </h2>
-      <img src="assets/img/nivel1.jpg"
-           class="img-fluid rounded shadow-sm">
-      <h2 class="card-title h3 mb-3 navy">
-        10.1.1. Nivel 2
-      </h2>
-            <img src="assets/img/nivel2.jpg"
-           class="img-fluid rounded shadow-sm">
-    </div>
-  </div>
-  <!-- 10.2 -->
-  <div id="diccionario" class="card shadow mb-4 border-0 bg-light">
-    <div class="card-body p-4">
-      <h2 class="card-title h3 mb-3 navy">
-        <i class="bi bi-journal-text me-2"></i>
-        10.2 Diccionario de Datos
-      </h2>
-            <img src="assets/img/diccionario.jpg"
-           class="img-fluid rounded shadow-sm">
-    </div>
-  </div>
+        <div id="dfd" class="card shadow mb-4 border-0">
+          <div class="card-body p-4">
+            <h2 class="card-title h3 mb-4 navy">
+              <i class="bi bi-diagram-3-fill me-2"></i>
+              10.1 DFD (Diagramas de Flujo de Datos)
+            </h2>
+            
+            <div id="dfd-nivel0" class="mb-4 pt-2">
+              <h3 class="h5 fw-bold text-secondary mb-3">10.1.1. Nivel 0</h3>
+              <img src="assets/img/nivel0.jpg" class="img-fluid rounded shadow-sm w-100" alt="DFD Nivel 0">
+            </div>
+
+            <div id="dfd-nivel1" class="mb-4 pt-2">
+              <h3 class="h5 fw-bold text-secondary mb-3">10.1.2. Nivel 1</h3>
+              <img src="assets/img/nivel1.jpg" class="img-fluid rounded shadow-sm w-100" alt="DFD Nivel 1">
+            </div>
+
+            <div id="dfd-nivel2" class="mb-2 pt-2">
+              <h3 class="h5 fw-bold text-secondary mb-3">10.1.3. Nivel 2</h3>
+              <img src="assets/img/nivel2.jpg" class="img-fluid rounded shadow-sm w-100" alt="DFD Nivel 2">
+            </div>
+          </div>
+        </div>
+
+        <div id="diccionario" class="card shadow mb-4 border-0 bg-light">
+          <div class="card-body p-4">
+            <h2 class="card-title h3 mb-3 navy">
+              <i class="bi bi-journal-text me-2"></i>
+              10.2 Diccionario de Datos
+            </h2>
+            <img src="assets/img/diccionario.jpg" class="img-fluid rounded shadow-sm w-100" alt="Diccionario de Datos">
+          </div>
+        </div>
   <!-- 10.3 -->
   <!-- <div id="procesos" class="card shadow mb-4 border-0">
     <div class="card-body p-4">
@@ -109,70 +108,78 @@
     </div>
   </div>-->
   <!-- 10.4 -->
-  <div id="der" class="card shadow mb-5 border-0 bg-light">
-    <div class="card-body p-4">
-      <h2 class="card-title h3 mb-3 navy">
-        <i class="bi bi-database-fill me-2"></i>
-        10.4 Diagrama Entidad Relación (DER)
-      </h2>
-      <img src="assets/img/diaER.jpg"
-           class="img-fluid rounded shadow-sm">
-    </div>
-  </div>
-</div>
-  <!-- SIDEBAR -->
-  <aside class="col-lg-3">
-    <div class="sticky-top" style="top:110px; z-index: 10;">
-      <!-- CONTENIDO -->
-      <div class="card shadow mb-4 border-0">
-        <div class="card-header bg-navy text-white py-3">
-          <i class="bi bi-bookmark-star-fill me-2"></i>
-          Modelo Ambiental
-        </div>
-        <div class="list-group list-group-flush small">
-          <a href="#declaracion"
-              class="list-group-item list-group-item-action">
-            9.1 Declaración de Propósito
-          </a>
-          <a href="#contexto"
-              class="list-group-item list-group-item-action">
-            9.2 Diagrama de Contexto
-          </a>
-          <a href="#acontecimientos"
-              class="list-group-item list-group-item-action">
-            9.3 Lista de Acontecimientos
-          </a>
+        <div id="der" class="card shadow mb-5 border-0">
+          <div class="card-body p-4">
+            <h2 class="card-title h3 mb-3 navy">
+              <i class="bi bi-database-fill me-2"></i>
+              10.4 Diagrama Entidad Relación (DER)
+            </h2>
+            <img src="assets/img/diaER.jpg" class="img-fluid rounded shadow-sm w-100" alt="Diagrama Entidad Relación">
+          </div>
         </div>
       </div>
-      <!-- NAVEGACION -->
-      <div class="card shadow border-0">
-        <div class="card-header bg-navy text-white py-3">
-          <i class="bi bi-arrow-left-right me-2"></i>
-          Navegación
+
+      <aside class="col-lg-3">
+        <div class="sticky-top" style="top:110px; z-index: 10;">
+          <div class="card shadow mb-4 border-0">
+            <div class="card-header bg-navy text-white py-3">
+              <i class="bi bi-bookmark-star-fill me-2"></i>
+              Contenido de la Página
+            </div>
+            <div class="list-group list-group-flush small">
+              <a href="#dfd" class="list-group-item list-group-item-action fw-bold text-dark">
+                10.1 DFD
+              </a>
+              <a href="#dfd-nivel0" class="list-group-item list-group-item-action ps-4 text-muted">
+                <i class="bi bi-dash me-1"></i> 10.1.1 Nivel 0
+              </a>
+              <a href="#dfd-nivel1" class="list-group-item list-group-item-action ps-4 text-muted">
+                <i class="bi bi-dash me-1"></i> 10.1.2 Nivel 1
+              </a>
+              <a href="#dfd-nivel2" class="list-group-item list-group-item-action ps-4 text-muted">
+                <i class="bi bi-dash me-1"></i> 10.1.3 Nivel 2
+              </a>
+              <a href="#diccionario" class="list-group-item list-group-item-action fw-bold text-dark">
+                10.2 Diccionario de Datos
+              </a>
+              <a href="#der" class="list-group-item list-group-item-action fw-bold text-dark">
+                10.4 Diagrama Entidad Relación
+              </a>
+            </div>
+          </div>
+
+          <div class="card shadow border-0">
+            <div class="card-header bg-navy text-white py-3">
+              <i class="bi bi-arrow-left-right me-2"></i>
+              Navegación
+            </div>
+            <div class="card-body text-center">
+              <a href="ambiental.html" class="btn btn-outline-primary w-100">
+                <i class="bi bi-arrow-left me-1"></i> Modelo Ambiental
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="card-body text-center">
-          <a href="comportamiento.html"
-              class="btn btn-outline-primary w-100">
-            Modelo de Comportamiento
-          </a>
-        </div>
-      </div>
-    </div>
-  </aside>
+      </aside>
+
     </div>
   </div>
-</main>  <footer id="footer" class="footer dark-background mt-auto">
-    <div class="container text-center py-4">
-      <h4 class="mb-2">Sistema de Gestión de Farmacia Hospitalaria</h4>
-      <p class="text-muted mb-1">Proyecto Académico de Análisis y Diseño de Sistemas</p>
-      <p class="small text-muted mb-0">© 2026 - Todos los derechos reservados</p>
-    </div>
-  </footer>
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
-    <i class="bi bi-arrow-up-short"></i>
-  </a>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/js/main.js"></script>
+</main>
+
+<footer id="footer" class="footer dark-background mt-auto">
+  <div class="container text-center py-4">
+    <h4 class="mb-2">Sistema de Gestión de Farmacia Hospitalaria</h4>
+    <p class="text-muted mb-1">Proyecto Académico de Análisis y Diseño de Sistemas</p>
+    <p class="small text-muted mb-0">© 2026 - Todos los derechos reservados</p>
+  </div>
+</footer>
+
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+  <i class="bi bi-arrow-up-short"></i>
+</a>
+
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
