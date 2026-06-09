@@ -5,9 +5,9 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Sistema de Gestión de Farmacia Hospitalaria</title>
   <link href="assets/img/logo/logo.png" rel="icon">
-  <link href="[https://fonts.googleapis.com](https://fonts.googleapis.com)" rel="preconnect">
-  <link href="[https://fonts.gstatic.com](https://fonts.gstatic.com)" rel="preconnect" crossorigin>
-  <link href="[https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap](https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap)" rel="stylesheet">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght=300;400;500;700&display=swap" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -49,17 +49,22 @@
       </div>
     </section>
 
-    <div class="container">
+    <div class="container-fluid px-4">
       <div class="row g-4">
+        
         <div class="col-lg-9">
+          
           <div id="intro" class="card shadow mb-4 border-0">
             <div class="card-body p-5">
               <h2 class="card-title h3 mb-3 navy"><i class="bi bi-info-circle-fill me-2"></i>1. Introducción</h2>
-              <p class="text-dark" style="text-align: justify;">
-              En la actualidad, las instituciones de salud requieren sistemas informáticos eficientes que optimicen la gestión de suministros para garantizar una atención de calidad. La Farmacia Hospitalaria cumple un rol fundamental, siendo responsable del control, almacenamiento y dispensación de medicamentos e insumos médicos esenciales para los tratamientos clínicos.
-A pesar de su importancia, en muchos centros hospitalarios la administración logística aún presenta procesos manuales o depende de sistemas con capacidades limitadas. Esta situación suele derivar en deficiencias en el seguimiento de lotes y el control de fechas de vencimiento, lo que incrementa el riesgo de errores administrativos, pérdidas económicas por fármacos caducados y posibles retrasos en la atención al paciente.
-Tras un diagnóstico realizado en la farmacia del Hospital Los Pinos, se identificó que, si bien se utiliza el sistema SIAC para funciones operativas básicas, persisten tareas manuales para la supervisión de niveles de stock y alertas preventivas. Existe una carencia de herramientas automatizadas que notifique la proximidad de vencimientos o el desabastecimiento de insumos clave.
-El presente proyecto propone el análisis y diseño de un “Sistema de Control de Medicamentos para Farmacia Hospitalaria”. El objetivo es proporcionar una solución tecnológica orientada a automatizar la gestión de inventarios, optimizar la administración de lotes y fortalecer el control interno mediante alertas, contribuyendo a una administración más segura y eficiente de los recursos farmacéuticos de la institución. 
+              <p class="text-dark mb-0" style="text-align: justify;">
+                En la actualidad, las instituciones de salud requieren sistemas informáticos eficientes que optimicen la gestión de suministros para garantizar una atención de calidad. La Farmacia Hospitalaria cumple un rol fundamental, siendo responsable del control, almacenamiento y dispensación de medicamentos e insumos médicos esenciales para los tratamientos clínicos.
+                <br><br>
+                A pesar de su importancia, en muchos centros hospitalarios la administración logística aún presenta procesos manuales o depende de sistemas con capacidades limitadas. Esta situación suele derivar en deficiencias en el seguimiento de lotes y el control de fechas de vencimiento, lo que incrementa el riesgo de errores administrativos, pérdidas económicas por fármacos caducados y posibles retrasos en la atención al paciente.
+                <br><br>
+                Tras un diagnóstico realizado en la farmacia del Hospital Los Pinos, se identificó que, si bien se utiliza el sistema SIAC para funciones operativas básicas, persisten tareas manuales para la supervisión de niveles de stock y alertas preventivas. Existe una carencia de herramientas automatizadas que notifique la proximidad de vencimientos o el desabastecimiento de insumos clave.
+                <br><br>
+                El presente proyecto propone el análisis y diseño de un “Sistema de Control de Medicamentos para Farmacia Hospitalaria”. El objetivo es proporcionar una solución tecnológica orientada a automatizar la gestión de inventarios, optimizar la administración de lotes y fortalecer el control interno mediante alertas, contribuyendo a una administración más segura y eficiente de los recursos farmacéuticos de la institución. 
               </p>
             </div>
           </div>
@@ -67,9 +72,10 @@ El presente proyecto propone el análisis y diseño de un “Sistema de Control 
           <div id="antecedentes" class="card shadow mb-4 border-0 bg-light">
             <div class="card-body p-5">
               <h2 class="card-title h3 mb-3 navy"><i class="bi bi-clock-history me-2"></i>2. Antecedentes</h2>
-              <p class="text-dark" style="text-align: justify;">
-              El Hospital Municipal Los Pinos es una institución pública de salud de segundo nivel perteneciente al Gobierno Autónomo Municipal de La Paz, ubicada en la zona Los Pinos de la ciudad de La Paz. Inició sus actividades en el año 2010 y cuenta con un equipo multidisciplinario orientado a brindar atención médica a la población en general. El hospital ofrece diferentes servicios como consulta externa, emergencia las 24 horas, laboratorio, internación y farmacia hospitalaria, además de especialidades médicas en áreas como medicina interna, cirugía general, ginecología, pediatría, traumatología y terapia intensiva. Asimismo, atiende a pacientes beneficiarios de programas de salud pública y servicios gratuitos, contribuyendo al cuidado y mejoramiento de la calidad de vida de la población paceña. 
-Según la investigación y la entrevista realizada al personal de farmacia, actualmente se utiliza el sistema SIAC para el registro de recetas médicas y control básico de medicamentos. A pesar del uso del sistema SIAC, aún existen limitaciones en algunos procesos de control farmacéutico.   
+              <p class="text-dark mb-0" style="text-align: justify;">
+                El Hospital Municipal Los Pinos es una institución pública de salud de segundo nivel perteneciente al Gobierno Autónomo Municipal de La Paz, ubicada en la zona Los Pinos de la ciudad de La Paz. Inició sus actividades en el año 2010 y cuenta con un equipo multidisciplinario orientado a brindar atención médica a la población en general. El hospital ofrece diferentes servicios como consulta externa, emergencia las 24 horas, laboratorio, internación y farmacia hospitalaria, además de especialidades médicas en áreas como medicina interna, cirugía general, ginecología, pediatría, traumatología y terapia intensiva. Asimismo, atiende a pacientes beneficiarios de programas de salud pública y servicios gratuitos, contribuyendo al cuidado y mejoramiento de la calidad de vida de la población paceña. 
+                <br><br>
+                Según la investigación y la entrevista realizada al personal de farmacia, actualmente se utiliza el sistema SIAC para el registro de recetas médicas y control básico de medicamentos. A pesar del uso del sistema SIAC, aún existen limitaciones en algunos procesos de control farmacéutico.   
               </p>
             </div>
           </div>
@@ -77,11 +83,12 @@ Según la investigación y la entrevista realizada al personal de farmacia, actu
           <div id="problema" class="card shadow mb-4 border-0">
             <div class="card-body p-5">
               <h2 class="card-title h3 mb-3 navy"><i class="bi bi-exclamation-triangle-fill me-2"></i>3. Planteamiento del Problema</h2>
-              <p class="text-dark" style="text-align: justify;">
+              <p class="text-dark mb-0" style="text-align: justify;">
                 Actualmente la farmacia hospitalaria del Hospital Los Pinos utiliza el sistema SIAC para el registro de recetas médicas y el control básico de medicamentos. Sin embargo, durante la investigación realizada se identificó que varios procesos continúan efectuándose de forma manual, especialmente el control de inventario, lotes y fechas de vencimiento de medicamentos.
-Asimismo, se evidenció la ausencia de alertas automáticas para medicamentos próximos a vencer y para niveles bajos de stock, lo que dificulta una adecuada supervisión del inventario. Además, cuando existen errores en los registros de descarga de medicamentos, el sistema actual no permite realizar correcciones directas de manera sencilla.
-Estas limitaciones en consecuencia pueden generar pérdidas de medicamentos, retrasos en los procesos administrativos y dificultades en el control eficiente de inventarios dentro de la farmacia hospitalaria. Por ello, surge la necesidad de diseñar un sistema que permita mejorar el control y gestión de medicamentos mediante herramientas automatizadas y un mejor seguimiento de la información.
-
+                <br><br>
+                Asimismo, se evidenció la absence de alertas automáticas para medicamentos próximos a vencer y para niveles bajos de stock, lo que dificulta una adecuada supervisión del inventario. Además, cuando existen errores en los registros de descarga de medicamentos, el sistema actual no permite realizar correcciones directas de manera sencilla.
+                <br><br>
+                Estas limitaciones en consecuencia pueden generar pérdidas de medicamentos, retrasos en los procesos administrativos y dificultades en el control eficiente de inventarios dentro de la farmacia hospitalaria. Por ello, surge la necesidad de diseñar un sistema que permita mejorar el control y gestión de medicamentos mediante herramientas automatizadas y un mejor seguimiento de la información.
               </p>
             </div>
           </div>
@@ -89,7 +96,7 @@ Estas limitaciones en consecuencia pueden generar pérdidas de medicamentos, ret
           <div id="arbol-problemas" class="card shadow mb-4 border-0">
             <div class="card-body p-5">
               <h2 class="card-title h3 mb-4 navy"><i class="bi bi-diagram-3-fill me-2"></i>4. Árbol de Problemas</h2>
-              <div class="text-center mb-4">
+              <div class="text-center">
                 <img src="assets/img/hospital/arbol.jpg" class="img-fluid rounded shadow" alt="Árbol de Problemas">
               </div>
             </div>
@@ -98,7 +105,7 @@ Estas limitaciones en consecuencia pueden generar pérdidas de medicamentos, ret
           <div id="formulacion" class="card shadow mb-4 border-0 bg-light">
             <div class="card-body p-5">
               <h2 class="card-title h3 mb-3 navy"><i class="bi bi-question-circle-fill me-2"></i>5. Formulación del Problema</h2>
-              <p class="lead text-dark" style="text-align:justify;">
+              <p class="lead text-dark mb-0" style="text-align:justify;">
                 ¿Cómo mejorar el control de medicamentos en la farmacia hospitalaria del Hospital Los Pinos mediante el diseño de un sistema que permita gestionar el stock, controlar fechas de vencimiento y generar alertas automáticas?
               </p>
             </div>
@@ -106,146 +113,146 @@ Estas limitaciones en consecuencia pueden generar pérdidas de medicamentos, ret
 
           <div id="proposito" class="card shadow mb-4 border-0">
             <div class="card-body p-5">
-              <h2 class="card-title h3 mb-3 navy"><i class="bi bi-bullseye me-2"></i>6. Propósito de Estudio</h2>
-              <p style="text-align:justify;">
+              <h2 class="card-title h3 mb-4 navy"><i class="bi bi-bullseye me-2"></i>6. Propósito del Estudio</h2>
+              <p class="text-dark mb-4" style="text-align:justify;">
                 El presente proyecto tiene como propósito analizar y diseñar un sistema de control de medicamentos para farmacia hospitalaria, orientado a mejorar el control de inventario, el seguimiento de medicamentos y la gestión de procesos relacionados con stock y fechas de vencimiento en el Hospital Los Pinos. 
               </p>
-            </div>
-          </div>
+              
+              <hr class="my-4 text-secondary">
 
-          <div id="objetivo-general" class="card shadow mb-4 border-0 bg-light">
-            <div class="card-body p-5">
-              <h2 class="card-title h3 mb-3 navy"><i class="bi bi-shield-check me-2"></i>7. Objetivo General</h2>
-              <p class="lead text-dark fs-5" style="text-align: justify;">
-               Diseñar un sistema de control de medicamentos para la farmacia hospitalaria del Hospital Los Pinos, que permita mejorar la gestión de inventario, el control de vencimientos y la supervisión de stock mediante procesos automatizados. 
+              <h3 class="h5 fw-bold navy mb-3">6.1 Objetivo General</h3>
+              <p class="lead text-dark fs-6 bg-light p-3 rounded border-start border-primary border-3" style="text-align: justify;">
+                Diseñar un sistema de control de medicamentos para la farmacia hospitalaria del Hospital Los Pinos, que permita mejorar la gestión de inventario, el control de vencimientos y la supervisión de stock mediante procesos automatizados. 
               </p>
-            </div>
-          </div>
 
-          <div id="objetivos-especificos" class="card shadow mb-4 border-0">
-            <div class="card-body p-4">
-              <h2 class="card-title h3 mb-3 navy"><i class="bi bi-list-task me-2"></i>8. Objetivos Específicos</h2>
+              <h3 class="h5 fw-bold navy mt-4 mb-3">6.2 Objetivos Específicos</h3>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item border-0 ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Analizar el funcionamiento actual de la farmacia hospitalaria del Hospital Los Pinos.</li>
-                <li class="list-group-item border-0 ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Identificar los problemas relacionados con el control de medicamentos y gestión de inventario.</li>
-                <li class="list-group-item border-0 ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Diseñar un sistema que permita automatizar el control de lotes y fechas de vencimiento.</li>
-                <li class="list-group-item border-0 ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Diseñar funciones de alertas automáticas para medicamentos próximos a vencer y niveles bajos de stock.</li>
-                <li class="list-group-item border-0 ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Modelar el sistema utilizando análisis estructurado y diagramas orientados a objetos.</li>
-                <li class="list-group-item border-0 ps-0"><i class="bi bi-check2-circle text-success me-2"></i> IProponer una solución que contribuya a mejorar la eficiencia en los procesos de farmacia hospitalaria.</li>
+                <li class="list-group-item bg-transparent ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Analizar el funcionamiento actual de la farmacia hospitalaria del Hospital Los Pinos.</li>
+                <li class="list-group-item bg-transparent ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Identificar los problemas relacionados con el control de medicamentos y gestión de inventario.</li>
+                <li class="list-group-item bg-transparent ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Diseñar un sistema que permita automatizar el control de lotes y fechas de vencimiento.</li>
+                <li class="list-group-item bg-transparent ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Diseñar funciones de alertas automáticas para medicamentos próximos a vencer y niveles bajos de stock.</li>
+                <li class="list-group-item bg-transparent ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Modelar el sistema utilizando análisis estructurado y diagramas orientados a objetos.</li>
+                <li class="list-group-item bg-transparent ps-0"><i class="bi bi-check2-circle text-success me-2"></i> Proponer una solución que contribuya a mejorar la eficiencia en los procesos de farmacia hospitalaria.</li>
               </ul>
             </div>
           </div>
-          
+
           <div id="metodologia" class="card shadow mb-4 border-0 bg-light">
             <div class="card-body p-5">
-              <h2 class="card-title h3 mb-4 navy">
-                <i class="bi bi-journal-text me-2"></i>10. Metodología de Investigación
-              </h2>
+              <h2 class="card-title h3 mb-4 navy"><i class="bi bi-journal-text me-2"></i>7. Metodología de Investigación</h2>
 
-              <h4 class="h5 fw-bold navy mb-3">10.1 Método de Investigación</h4>
-              <p class="text-dark mb-4" style="text-align:justify; line-height:1.9;">
-Para el desarrollo del presente proyecto se emplearon los métodos descriptivo y analítico.
-El método descriptivo permitió identificar y caracterizar la situación actual de la farmacia hospitalaria del Hospital Los Pinos, analizando los procesos relacionados con el control de medicamentos, la gestión de inventarios, el manejo de lotes, el control de fechas de vencimiento y la supervisión de niveles de stock.
-Por otra parte, el método analítico permitió examinar las causas y consecuencias de las deficiencias detectadas en los procesos actuales, tales como el control manual de medicamentos, la ausencia de alertas automáticas y las limitaciones del sistema SIAC. Este análisis facilitó la identificación de requerimientos y necesidades que servirán como base para el diseño del Sistema de Control de Medicamentos para Farmacia Hospitalaria.
-La aplicación conjunta de ambos métodos permitió comprender el funcionamiento actual de la farmacia, detectar problemas existentes y plantear una propuesta de solución orientada a mejorar la gestión y el control de medicamentos dentro de la institución
-
+              <h4 class="h5 fw-bold navy mb-3">7.1 Método de Investigación</h4>
+              <p class="text-dark mb-4" style="text-align:justify; line-height:1.8;">
+                Para el desarrollo del presente proyecto se emplearon los métodos descriptivo y analítico.
+                El método descriptivo permitió identificar y caracterizar la situación actual de la farmacia hospitalaria del Hospital Los Pinos, analizando los procesos relacionados con el control de medicamentos, la gestión de inventarios, el manejo de lotes, el control de fechas de vencimiento y la supervisión de niveles de stock.
+                <br><br>
+                Por otra parte, el método analítico permitió examinar las causas y consecuencias de las deficiencias detectadas en los procesos actuales, tales como el control manual de medicamentos, la ausencia de alertas automáticas y las limitaciones del sistema SIAC. Este análisis facilitó la identificación de requerimientos y necesidades que servirán como base para el diseño del Sistema de Control de Medicamentos para Farmacia Hospitalaria.
+                <br><br>
+                La aplicación conjunta de ambos métodos permitió comprender el funcionamiento actual de la farmacia, detectar problemas existentes y plantear una propuesta de solución orientada a mejorar la gestión y el control de medicamentos dentro de la institución.
               </p>
 
-              <h4 class="h5 fw-bold navy mt-5 mb-3">10.2 Medios de Investigación</h4>
+              <h4 class="h5 fw-bold navy mt-4 mb-3">7.2 Medios de Investigación</h4>
               <ul class="list-group list-group-flush mb-4">
-                <li class="list-group-item bg-transparent"><strong>Observación Directa:</strong> 
-                Se realizó la observación de las actividades desarrolladas en la farmacia hospitalaria del Hospital Los Pinos con el propósito de conocer el funcionamiento actual de los procesos relacionados con el almacenamiento, control, dispensación y registro de medicamentos. Este medio permitió identificar procedimientos manuales, dificultades operativas y aspectos susceptibles de mejora.
+                <li class="list-group-item bg-transparent ps-0"><strong>Observación Directa:</strong> 
+                  Se realizó la observación de las actividades desarrolladas en la farmacia hospitalaria del Hospital Los Pinos con el propósito de conocer el funcionamiento actual de los procesos relacionados con el almacenamiento, control, dispensación y registro de medicamentos. Este medio permitió identificar procedimientos manuales, dificultades operativas y aspectos susceptibles de mejora.
                 </li>
-                <li class="list-group-item bg-transparent"><strong>Entrevista:</strong> 
-                Se efectuó una entrevista al personal responsable del área de farmacia con el fin de recopilar información acerca del funcionamiento del sistema SIAC, los procedimientos utilizados para el control de medicamentos y las dificultades que se presentan en las actividades diarias. La información obtenida permitió conocer las necesidades reales del área y definir los requerimientos del sistema propuesto.
+                <li class="list-group-item bg-transparent ps-0"><strong>Entrevista:</strong> 
+                  Se efectuó una entrevista al personal responsable del área de farmacia con el fin de recopilar información acerca del funcionamiento del sistema SIAC, los procedimientos utilizados para el control de medicamentos y las dificultades que se presentan en las actividades diarias. La información obtenida permitió conocer las necesidades reales del área y definir los requerimientos del sistema propuesto.
                 </li>
-                <li class="list-group-item bg-transparent"><strong>Revisión documental:</strong> 
-               Se revisó información relacionada con los procedimientos de control de medicamentos, registros utilizados por el área de farmacia, documentación disponible sobre el sistema SIAC y bibliografía especializada en gestión farmacéutica y análisis de sistemas. Esta revisión permitió complementar y validar la información obtenida mediante la observación y las entrevistas.
+                <li class="list-group-item bg-transparent ps-0"><strong>Revisión documental:</strong> 
+                  Se revisó información relacionada con los procedimientos de control de medicamentos, registros utilizados por el área de farmacia, documentación disponible sobre el sistema SIAC y bibliografía especializada en gestión farmacéutica y análisis de sistemas. Esta revisión permitió complementar y validar la información obtenida mediante la observación y las entrevistas.
                 </li>
               </ul>
 
-              <h4 class="h5 fw-bold navy mt-5 mb-3">10.3 Instrumentos de Investigación</h4>
+              <h4 class="h5 fw-bold navy mt-4 mb-3">7.3 Instrumentos de Investigación</h4>
               <ul class="list-group list-group-flush mb-4">
-                <li class="list-group-item bg-transparent"><strong>Guía de Observación.</strong> 
-               Instrumento utilizado para registrar de manera sistemática las actividades observadas dentro de la farmacia hospitalaria, permitiendo identificar procesos, procedimientos, controles y posibles deficiencias relacionadas con la gestión de medicamentos.
+                <li class="list-group-item bg-transparent ps-0"><strong>Guía de Observación:</strong> 
+                  Instrumento utilizado para registrar de manera sistemática las actividades observadas dentro de la farmacia hospitalaria, permitiendo identificar procesos, procedimientos, controles y posibles deficiencias relacionadas con la gestión de medicamentos.
                 </li>
-                <li class="list-group-item bg-transparent"><strong>Cuestionario de Entrevista</strong> 
-               Documento compuesto por preguntas dirigidas al personal responsable de farmacia, orientadas a conocer las características del sistema actual, las dificultades operativas existentes y los requerimientos necesarios para mejorar el control y administración de medicamentos.
+                <li class="list-group-item bg-transparent ps-0"><strong>Cuestionario de Entrevista:</strong> 
+                  Documento compuesto por preguntas dirigidas al personal responsable de farmacia, orientadas a conocer las características del sistema actual, las dificultades operativas existentes y los requerimientos necesarios para mejorar el control y administración de medicamentos.
                 </li>
-                <li class="list-group-item bg-transparent"><strong>Registro de Información</strong> 
-               Se emplearon notas y registros escritos para documentar la información obtenida durante el proceso de investigación, facilitando su organización, análisis e interpretación para el desarrollo del proyecto.
+                <li class="list-group-item bg-transparent ps-0"><strong>Registro de Información:</strong> 
+                  Se emplearon notas y registros escritos para documentar la información obtenida durante el proceso de investigación, facilitando su organización, análisis e interpretación para el desarrollo del proyecto.
                 </li>
               </ul>
 
-              <h4 class="h5 fw-bold navy mt-5 mb-3">10.4 Justificación</h4>
-              <p class="text-dark mb-4" style="text-align:justify; line-height:1.9;">
+              <h4 class="h5 fw-bold navy mt-4 mb-3">7.4 Justificación</h4>
+              <p class="text-dark mb-4" style="text-align:justify; line-height:1.8;">
                 La presente investigación surge ante la necesidad de fortalecer el control y la administración de medicamentos dentro de la farmacia hospitalaria del Hospital Los Pinos.
-Durante el estudio realizado se identificó que algunos procesos continúan desarrollándose de forma manual, especialmente aquellos relacionados con el control de lotes, fechas de vencimiento y supervisión de niveles de stock. Asimismo, se evidenció la ausencia de alertas automáticas que permitan detectar oportunamente medicamentos próximos a vencer o niveles bajos de inventario, así como ciertas limitaciones del sistema SIAC para realizar controles más eficientes.
-El diseño de un Sistema de Control de Medicamentos permitirá optimizar la gestión farmacéutica mediante la automatización de procesos, mejorar el seguimiento de medicamentos, reducir errores administrativos, minimizar pérdidas por vencimiento y contribuir a una atención más eficiente y segura para los pacientes.
-Además, la propuesta proporcionará una herramienta tecnológica que apoye la toma de decisiones, fortalezca el control interno de la farmacia hospitalaria y contribuya a mejorar la calidad de los servicios prestados por la institución.
-Asimismo, el proyecto permitirá aplicar los conocimientos adquiridos en la asignatura de Análisis y Diseño de Sistemas mediante el uso de metodologías, técnicas y herramientas de modelado estructurado y orientado a objetos.
-
+                Durante el estudio realizado se identificó que algunos procesos continúan desarrollándose de forma manual, especialmente aquellos relacionados con el control de lotes, fechas de vencimiento y supervisión de niveles de stock. Asimismo, se evidenció la ausencia de alertas automáticas que permitan detectar oportunamente medicamentos próximos a vencer o niveles bajos de inventario, así como ciertas limitaciones del sistema SIAC para realizar controles más eficientes.
+                <br><br>
+                El diseño de un Sistema de Control de Medicamentos permitirá optimizar la gestión farmacéutica mediante la automatización de procesos, mejorar el seguimiento de medicamentos, reducir errores administrativos, minimizar pérdidas por vencimiento y contribuir a una atención más eficiente y segura para los pacientes.
+                <br><br>
+                Además, la propuesta proporcionará una herramienta tecnológica que apoye la toma de decisiones, fortalezca el control interno de la farmacia hospitalaria y contribuya a mejorar la calidad de los servicios prestados por la institución. Asimismo, el proyecto permitirá aplicar los conocimientos adquiridos en la asignatura de Análisis y Diseño de Sistemas mediante el uso de metodologías, técnicas y herramientas de modelado estructurado y orientado a objetos.
               </p>
 
-              <h4 class="h5 fw-bold navy mt-5 mb-3">10.5 Alcances</h4>
-              <ul class="list-group">
-                <li class="list-group-item">Gestionar el registro de medicamentos e insumos médicos.</li>
-                <li class="list-group-item">Controlar el inventario de medicamentos.</li>
-                <li class="list-group-item">Registrar y administrar lotes de medicamentos.</li>
-                <li class="list-group-item">Realizar el seguimiento de fechas de vencimiento.</li>
-                <li class="list-group-item">Generar alertas automáticas para medicamentos próximos a vencer.</li>
-                <li class="list-group-item">Generar alertas automáticas para niveles bajos de stock.</li>
-                <li class="list-group-item">Registrar movimientos de ingreso y salida de medicamentos.</li>
-                <li class="list-group-item">Facilitar la consulta de información relacionada con existencias, lotes y movimientos de inventario.</li>
-                <li class="list-group-item">Mejorar el control y seguimiento de los procesos farmacéuticos.</li>
+              <h4 class="h5 fw-bold navy mt-4 mb-3">7.5 Alcances</h4>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-transparent ps-0"><i class="bi bi-caret-right-fill text-primary me-2"></i> Gestionar el registro de medicamentos e insumos médicos.</li>
+                <li class="list-group-item bg-transparent ps-0"><i class="bi bi-caret-right-fill text-primary me-2"></i> Controlar el inventario de medicamentos.</li>
+                <li class="list-group-item bg-transparent ps-0"><i class="bi bi-caret-right-fill text-primary me-2"></i> Registrar y administrar lotes de medicamentos.</li>
+                <li class="list-group-item bg-transparent ps-0"><i class="bi bi-caret-right-fill text-primary me-2"></i> Realizar el seguimiento de fechas de vencimiento.</li>
+                <li class="list-group-item bg-transparent ps-0"><i class="bi bi-caret-right-fill text-primary me-2"></i> Generar alertas automáticas para medicamentos próximos a vencer.</li>
+                <li class="list-group-item bg-transparent ps-0"><i class="bi bi-caret-right-fill text-primary me-2"></i> Generar alertas automáticas para niveles bajos de stock.</li>
+                <li class="list-group-item bg-transparent ps-0"><i class="bi bi-caret-right-fill text-primary me-2"></i> Registrar movimientos de ingreso y salida de medicamentos.</li>
+                <li class="list-group-item bg-transparent ps-0"><i class="bi bi-caret-right-fill text-primary me-2"></i> Facilitar la consulta de información relacionada con existencias, lotes y movimientos de inventario.</li>
+                <li class="list-group-item bg-transparent ps-0"><i class="bi bi-caret-right-fill text-primary me-2"></i> Mejorar el control y seguimiento de los procesos farmacéuticos.</li>
               </ul>
             </div>
           </div>
 
           <div id="planificacion" class="card shadow mb-5 border-0">
             <div class="card-body p-5">
-              <h2 class="card-title h3 mb-4 navy">
-                <i class="bi bi-calendar-event-fill me-2"></i>13. Planificación de Actividades
-              </h2>
+              <h2 class="card-title h3 mb-4 navy"><i class="bi bi-calendar-event-fill me-2"></i>8. Planificación de Actividades</h2>
 
-              <h4 class="h5 fw-bold navy mb-3">13.1 Cronograma</h4>
+              <h4 class="h5 fw-bold navy mb-3">8.1 Cronograma</h4>
               <div class="text-center mb-5">
                 <img src="assets/img/hospital/cronograma.jpg" class="img-fluid rounded shadow" alt="Cronograma">
               </div>
 
-              <h4 class="h5 fw-bold navy mb-3">13.2 Diagrama de Gantt</h4>
+              <h4 class="h5 fw-bold navy mb-3">8.2 Diagrama de Gantt</h4>
               <div class="text-center mb-5">
                 <img src="assets/img/hospital/gantt.jpg" class="img-fluid rounded shadow" alt="Diagrama de Gantt">
               </div>
 
-              <h4 class="h5 fw-bold navy mb-3">13.3 Diagrama PERT</h4>
+              <h4 class="h5 fw-bold navy mb-3">8.3 Diagrama PERT</h4>
               <div class="text-center mb-4">
                 <img src="assets/img/hospital/diaPert.png" class="img-fluid rounded shadow" alt="Diagrama PERT">
               </div>
 
-              <div class="alert alert-primary">
+              <div class="alert alert-primary shadow-sm border-0">
                 <strong>Ruta crítica:</strong> A → C → E → G → H → I → K <br>
                 <strong>Duración total del proyecto:</strong> 12 semanas.
               </div>
             </div>
           </div>
+          
         </div> <aside class="col-lg-3">
           <div class="sticky-top" style="top: 110px; z-index: 10;">
             <div class="card shadow mb-4 border-0">
-              <div class="card-header bg-navy text-white font-weight-bold py-3">
+              <div class="card-header bg-navy text-white py-3" style="background-color: #001f3f;">
                 <i class="bi bi-bookmark-star-fill me-2"></i>Contenido
               </div>
               <div class="list-group list-group-flush small">
                 <a href="#intro" class="list-group-item list-group-item-action"><i class="bi bi-chevron-right me-1"></i> 1. Introducción</a>
                 <a href="#antecedentes" class="list-group-item list-group-item-action"><i class="bi bi-chevron-right me-1"></i> 2. Antecedentes</a>
                 <a href="#problema" class="list-group-item list-group-item-action"><i class="bi bi-chevron-right me-1"></i> 3. Planteamiento del Problema</a>
-                <a href="#arbol-problemas" class="list-group-item list-group-item-action"><i class="bi bi-chevron-right me-1"></i> 4. Árbol de Problemas</a>
+                <a href="#arbol-problemas" class="list-group-item list-group-item-action"><i class="bi bi-chevron-right me-1"></i> 4. Arbol de Problemas</a>
                 <a href="#formulacion" class="list-group-item list-group-item-action"><i class="bi bi-chevron-right me-1"></i> 5. Formulación del Problema</a>
-                <a href="#proposito" class="list-group-item list-group-item-action"><i class="bi bi-chevron-right me-1"></i> 6. Propósito de Estudio</a>
-                <a href="#objetivo-general" class="list-group-item list-group-item-action"><i class="bi bi-chevron-right me-1"></i> 7. Objetivo General</a>
-                <a href="#objetivos-especificos" class="list-group-item list-group-item-action"><i class="bi bi-chevron-right me-1"></i> 8. Objetivos Específicos</a>
-                <a href="#metodologia" class="list-group-item list-group-item-action"><i class="bi bi-chevron-right me-1"></i> 10. Metodología de Investigación</a>
-                <a href="#planificacion" class="list-group-item list-group-item-action"><i class="bi bi-chevron-right me-1"></i> 13. Planificación de Actividades</a>
+                <a href="#proposito" class="list-group-item list-group-item-action"><i class="bi bi-chevron-right me-1"></i> 6. Propósito del Estudio</a>
+                <a href="#proposito" class="list-group-item list-group-item-action ps-4"><i class="bi bi-dash me-1"></i> 6.1 Objetivo General</a>
+                <a href="#proposito" class="list-group-item list-group-item-action ps-4"><i class="bi bi-dash me-1"></i> 6.2 Objetivos Específicos</a>
+                <a href="#metodologia" class="list-group-item list-group-item-action"><i class="bi bi-chevron-right me-1"></i> 7. Metodología de Investigación</a>
+                <a href="#metodologia" class="list-group-item list-group-item-action ps-4"><i class="bi bi-dash me-1"></i> 7.1 Método de Investigación</a>
+                <a href="#metodologia" class="list-group-item list-group-item-action ps-4"><i class="bi bi-dash me-1"></i> 7.2 Medios de Investigación</a>
+                <a href="#metodologia" class="list-group-item list-group-item-action ps-4"><i class="bi bi-dash me-1"></i> 7.3 Instrumentos de Investigación</a>
+                <a href="#metodologia" class="list-group-item list-group-item-action ps-4"><i class="bi bi-dash me-1"></i> 7.4 Justificación</a>
+                <a href="#metodologia" class="list-group-item list-group-item-action ps-4"><i class="bi bi-dash me-1"></i> 7.5 Alcances</a>
+                <a href="#planificacion" class="list-group-item list-group-item-action"><i class="bi bi-chevron-right me-1"></i> 8. Planificación de Actividades</a>
+                <a href="#planificacion" class="list-group-item list-group-item-action ps-4"><i class="bi bi-dash me-1"></i> 8.1 Cronograma</a>
+                <a href="#planificacion" class="list-group-item list-group-item-action ps-4"><i class="bi bi-dash me-1"></i> 8.2 Diagrama de Gantt</a>
+                <a href="#planificacion" class="list-group-item list-group-item-action ps-4"><i class="bi bi-dash me-1"></i> 8.3 Diagrama PERT</a>
               </div>
             </div>
           </div>
